@@ -1,0 +1,124 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f4f7fc;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #101820;
+  padding: 15px 40px;
+}
+
+.logo {
+  font-size: 24px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.menu li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.menu li a:hover {
+  color: #00aced;
+}
+
+/* Pricing Section */
+.pricing-section {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 50px;
+  background: #e9f1fb;
+  scroll-margin-top: 80px;
+}
+
+.pricing-card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  width: 300px;
+  text-align: center;
+  position: relative;
+}
+
+.pricing-card h3 {
+  margin-top: 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.pricing-card h2 {
+  font-size: 32px;
+  margin: 10px 0;
+  color: #1a73e8;
+}
+
+.pricing-card span {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.pricing-card ul {
+  text-align: left;
+  padding: 0;
+  list-style: none;
+  margin-top: 20px;
+}
+
+.pricing-card ul li {
+  padding: 5px 0;
+}
+
+.pricing-card button {
+  margin-top: 15px;
+  padding: 10px 15px;
+  background: #1a73e8;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.pricing-card .badge {
+  position: absolute;
+  top: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #1a73e8;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.highlight {
+  border: 2px solid #1a73e8;
+}
+.btn {
+  display: inline-block;
+  padding: 10px 15px;
+  background: #1a73e8;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.btn:hover {
+  background: #0059c1;
+}
